@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-error {
+    @apply p-2 my-2 text-sm text-center text-white bg-red-400 rounded-lg;
+}
