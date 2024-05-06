@@ -16,6 +16,8 @@ class ComentarioController extends Controller
             'comentario' => 'required|max:255'
         ]);
 
+        dd($post);
+
         // Almacenar el resultado
         Comentario::create([
             'user_id'       => auth()->user()->id,
